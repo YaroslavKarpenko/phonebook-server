@@ -1,0 +1,27 @@
+{
+  "name": "phonebook-backend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaroslavKarpenko/phonebook-server.git"
+  },
+  "author": "Yaroslav Karpenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YaroslavKarpenko/phonebook-server/issues"
+  },
+  "homepage": "https://github.com/YaroslavKarpenko/phonebook-server#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
